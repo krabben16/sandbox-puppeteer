@@ -6,7 +6,6 @@ RUN curl -sL https://rpm.nodesource.com/setup_8.x | bash -
 RUN yum install -y nodejs
 
 # chromium
-RUN mkdir /home/chromium
 RUN yum install -y unzip
 RUN yum install -y pango.x86_64 \
   libXcomposite.x86_64 \
