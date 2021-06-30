@@ -1,5 +1,3 @@
-# test-puppeteer
-
 ```shell
 (cd ./src ; npm i)
 docker-compose up -d
